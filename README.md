@@ -27,7 +27,7 @@ mvn install:install-file -Dfile=PapillonCoreJava-${PAPILLON_VERSION}.jar -Dgroup
 
 ```
 
-## Add the dependency in pom.xml
+## Add the dependency in pom.xml
 
 See the dependency in the `pom.xml`.
 
@@ -40,7 +40,7 @@ See the dependency in the `pom.xml`.
 ```
 
 
-## Build and start the app
+## Build and start the app
 
 
 ```
@@ -50,6 +50,6 @@ java -jar target/papillon-0.0.1-SNAPSHOT.jar
 ```
 
 
-## Info about the Spring APP
+## Info about the Spring APP
 I create the spring boot app with [INITIALIZR](https://start.spring.io) and `Rest Repositories` as dependency.
 
