@@ -26,6 +26,7 @@ PAPILLON_VERSION=4.4.0.42
 mvn install:install-file -Dfile=PapillonCoreJava-${PAPILLON_VERSION}.jar -DgroupId=ch.morphean.analytics.papillon -DartifactId=papillon-core-java -Dversion=${PAPILLON_VERSION} -Dpackaging=jar
 ```
 
+
 ## Add the dependency in pom.xml
 
 See the dependency in the `pom.xml`.
@@ -37,7 +38,10 @@ See the dependency in the `pom.xml`.
 			<version>4.4.0.42</version>
 		</dependency>
 ```
+
+
 ## Build and start the app
+
 
 ```
 mvn clean package
@@ -45,7 +49,7 @@ mvn clean package
 java -jar target/papillon-0.0.1-SNAPSHOT.jar 
 ```
 
+
 ## Info about the Spring APP
 I create the spring boot app with [INITIALIZR](https://start.spring.io) and `Rest Repositories` as dependency.
 
- 
