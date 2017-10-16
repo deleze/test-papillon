@@ -24,8 +24,8 @@ Now install the Paillon jar in your local repository (`~/.m2/repository`) with t
 ```
 PAPILLON_VERSION=4.4.0.42
 mvn install:install-file -Dfile=PapillonCoreJava-${PAPILLON_VERSION}.jar -DgroupId=ch.morphean.analytics.papillon -DartifactId=papillon-core-java -Dversion=${PAPILLON_VERSION} -Dpackaging=jar
-```
 
+```
 
 ## Add the dependency in pom.xml
 
